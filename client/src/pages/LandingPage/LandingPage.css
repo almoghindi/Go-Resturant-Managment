@@ -1,0 +1,90 @@
+.landing-page {
+  background-color: #fef3e2;
+  color: white;
+}
+
+.hero {
+  background-image: url("../../assets/resturant_home.webp");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.hero-content {
+  max-width: 500px;
+  /* margin-right: 20%; */
+  color: #fef3e2;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #708871;
+  color: #fef3e2;
+  border-radius: 3px;
+}
+
+.features {
+  color: #708871;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-item {
+  width: 200px;
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 1rem;
+}
+
+.feature-item img {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-content {
+    margin-right: 15%;
+  }
+}

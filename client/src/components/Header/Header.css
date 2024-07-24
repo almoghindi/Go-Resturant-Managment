@@ -1,0 +1,69 @@
+.header {
+  background-color: #fef3e2;
+  color: #333;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  color: #708871;
+  width: 60%;
+}
+
+.header-logo-title {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.header-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.4s;
+}
+
+.header-nav a:hover {
+  color: #606676;
+}
+
+.signup-link {
+  font-weight: bold;
+  color: #708871;
+}
+
+.login-link {
+  background-color: #708871;
+  color: black;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+/* .login-link:hover {
+  background-color: #ffd700;
+  color: #00008b;
+} */
